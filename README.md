@@ -5,7 +5,7 @@ An ecommerce website for selling my artwork online and promoting my social media
 Here are a list of things to understand and do in order to get this project working on your local machine.
 
 ### Core Dependencies
-- Python v3
+- [Python v3.8.9](https://www.python.org/downloads/release/python-389/)
 - Django v4
 - Coverage (Testing Utility)
 - Pillow (Image Processing)
