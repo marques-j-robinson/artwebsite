@@ -11,7 +11,18 @@ Here are a list of things to understand and do in order to get this project work
 - Pillow (Image Processing)
 
 Python is required for this codebase.
-From a virtual environment execute the following command:
+We discovered that on Python v3.8.9 is the current [stable version](https://stackoverflow.com/questions/71712258/error-could-not-build-wheels-for-backports-zoneinfo-which-is-required-to-insta)
+
+### Create a virtual environment
+`python -m venv venv`
+
+### Activate the virtual environment
+Windows:
+`\venv\Scrips\activate.bin`
+Mac:
+`source venv/bin/activate`
+
+From the newly created virtual environment, execute the following command:
 `pip install -r requirements.txt`
 This will read the `requirements.txt` file and use `pip` to install them.
 
