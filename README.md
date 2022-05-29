@@ -19,11 +19,13 @@ We discovered that Python v3.8.9 is the current [stable version](https://stackov
 ### Activate the virtual environment
 Windows:
 `\venv\Scrips\activate.bin`
+
 Mac:
 `source venv/bin/activate`
 
-From the newly created virtual environment, execute the following command:
+### Install Requirements
 `pip install -r requirements.txt`
+
 This will read the `requirements.txt` file and use `pip` to install them.
 
 ### Database Setup
